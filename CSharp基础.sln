@@ -31,6 +31,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "006-5类与多态", "006-5�
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "008-1预处理器的使用", "008-1预处理器的使用\008-1预处理器的使用.csproj", "{66C2F562-E3C6-4556-A96C-0656461291FC}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "009-1异常处理使用", "009-1异常处理使用\009-1异常处理使用.csproj", "{BC018659-5BC4-47C7-9E42-50363431A6BE}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -93,6 +95,10 @@ Global
 		{66C2F562-E3C6-4556-A96C-0656461291FC}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{66C2F562-E3C6-4556-A96C-0656461291FC}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{66C2F562-E3C6-4556-A96C-0656461291FC}.Release|Any CPU.Build.0 = Release|Any CPU
+		{BC018659-5BC4-47C7-9E42-50363431A6BE}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{BC018659-5BC4-47C7-9E42-50363431A6BE}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{BC018659-5BC4-47C7-9E42-50363431A6BE}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{BC018659-5BC4-47C7-9E42-50363431A6BE}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
