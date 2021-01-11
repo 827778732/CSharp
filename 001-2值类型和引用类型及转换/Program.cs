@@ -21,7 +21,7 @@ namespace _001_2值类型和引用类型及转换
 
 
 
-            /*装箱与拆箱操作*/
+            /*装箱与拆箱操作*/     //存在继承关系才可能出现装箱拆箱操作
             int value = 100;
             object obj = value; //将value装箱 值类型变成引用类型(object)
             int b = (int)obj;  //通过强转将object类型拆箱使用
