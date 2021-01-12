@@ -13,8 +13,6 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "003-1条件循环分支结�
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "004-1String类型的使用", "004-1String类型的使用\004-1String类型的使用.csproj", "{9E0C3415-C46C-48BF-8854-75C6979217C9}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "005-1命名空间", "005-1命名空间\005-1命名空间.csproj", "{DA67AC8F-486C-445B-A82B-29878896B084}"
-EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "006-1类的声明使用", "006-1类的声明使用\006-1类的声明使用.csproj", "{E0F485D8-710D-4E2D-B032-CABB1A46A5A2}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "006-2类成员及其使用", "006-2类成员及其使用\006-2类成员及其使用.csproj", "{1199FC50-F7C1-411D-AA05-F1E48FC8B310}"
@@ -38,6 +36,8 @@ EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "001-3ref和out的使用", "001-3ref和out的使用\001-3ref和out的使用.csproj", "{1AAD8A58-54EA-426C-9F72-D088DCB9F8FC}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "004-2StringFormat使用", "004-2StringFormat使用\004-2StringFormat使用.csproj", "{4610417A-7202-4BB6-8694-7B7DD1DF5C21}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "005-1命名空间与using", "005-1命名空间与using\005-1命名空间与using.csproj", "{DA67AC8F-486C-445B-A82B-29878896B084}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -65,10 +65,6 @@ Global
 		{9E0C3415-C46C-48BF-8854-75C6979217C9}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{9E0C3415-C46C-48BF-8854-75C6979217C9}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{9E0C3415-C46C-48BF-8854-75C6979217C9}.Release|Any CPU.Build.0 = Release|Any CPU
-		{DA67AC8F-486C-445B-A82B-29878896B084}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{DA67AC8F-486C-445B-A82B-29878896B084}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{DA67AC8F-486C-445B-A82B-29878896B084}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{DA67AC8F-486C-445B-A82B-29878896B084}.Release|Any CPU.Build.0 = Release|Any CPU
 		{E0F485D8-710D-4E2D-B032-CABB1A46A5A2}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
 		{E0F485D8-710D-4E2D-B032-CABB1A46A5A2}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{E0F485D8-710D-4E2D-B032-CABB1A46A5A2}.Release|Any CPU.ActiveCfg = Release|Any CPU
@@ -117,6 +113,10 @@ Global
 		{4610417A-7202-4BB6-8694-7B7DD1DF5C21}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{4610417A-7202-4BB6-8694-7B7DD1DF5C21}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{4610417A-7202-4BB6-8694-7B7DD1DF5C21}.Release|Any CPU.Build.0 = Release|Any CPU
+		{DA67AC8F-486C-445B-A82B-29878896B084}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{DA67AC8F-486C-445B-A82B-29878896B084}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{DA67AC8F-486C-445B-A82B-29878896B084}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{DA67AC8F-486C-445B-A82B-29878896B084}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

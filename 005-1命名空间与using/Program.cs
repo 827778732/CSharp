@@ -3,7 +3,7 @@ using System.Collections.Generic;
 using System.Linq;
 using static System.Math;
 
-namespace _005_1命名空间
+namespace _005_1命名空间与using
 {
     //using的用法：
     //1. using指令：引入命名空间
