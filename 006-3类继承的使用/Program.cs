@@ -52,7 +52,7 @@ namespace _006_3类继承的使用
 
 
     /// <summary>
-    /// Boos子类继承于Boss
+    /// Boos子类继承于Boss 所有字段都被继承只不过有访问性限制
     /// </summary>
     public class Boss子类 : Boss
     {

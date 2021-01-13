@@ -95,6 +95,10 @@ namespace _010_1正则表达式
 
             Console.WriteLine(Regex.Match("255.255.255.255 ",@"(\d{1,}.)(\d{0,}.){2}(\d{0,})"));
 
+
+
+
+            //字符串(格式)匹配正则表达式
             Console.ReadKey();
         }
 

@@ -39,6 +39,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "004-2StringFormat使用", "
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "005-1命名空间与using", "005-1命名空间与using\005-1命名空间与using.csproj", "{DA67AC8F-486C-445B-A82B-29878896B084}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "011-1反射的使用", "011-1反射的使用\011-1反射的使用.csproj", "{9A94A9E4-5952-454D-A280-FDABEFEF066A}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -117,6 +119,10 @@ Global
 		{DA67AC8F-486C-445B-A82B-29878896B084}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{DA67AC8F-486C-445B-A82B-29878896B084}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{DA67AC8F-486C-445B-A82B-29878896B084}.Release|Any CPU.Build.0 = Release|Any CPU
+		{9A94A9E4-5952-454D-A280-FDABEFEF066A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{9A94A9E4-5952-454D-A280-FDABEFEF066A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{9A94A9E4-5952-454D-A280-FDABEFEF066A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{9A94A9E4-5952-454D-A280-FDABEFEF066A}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
