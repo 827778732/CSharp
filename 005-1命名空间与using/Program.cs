@@ -1,6 +1,8 @@
 ﻿using System;
 using System.Collections.Generic;
+using System.IO;
 using System.Linq;
+using System.Text;
 using static System.Math;
 
 namespace _005_1命名空间与using
@@ -29,7 +31,7 @@ namespace _005_1命名空间与using
         static void Main(string[] args)
         {
             List<byte> cList = new List<byte>();
-            //3.执行完{}释放using()内的对象
+            //3.执行完{}释放using()内的对象     //这是因为File实现了IDisposable接口
             using (System.IO.FileStream file = new System.IO.FileStream("Test1.txt", System.IO.FileMode.Open))
             {
                 Console.WriteLine(file.Length);
@@ -39,6 +41,7 @@ namespace _005_1命名空间与using
             }
 
             
+
             //完全限定名的使用  并且引用的是嵌套的命名空间
             MyNamespace1.MyNamespace2.MyClass2 myClass2 = new MyNamespace1.MyNamespace2.MyClass2();
             

@@ -41,6 +41,10 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "005-1命名空间与using",
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "011-1反射的使用", "011-1反射的使用\011-1反射的使用.csproj", "{9A94A9E4-5952-454D-A280-FDABEFEF066A}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "012-1特性的使用", "012-1特性的使用\012-1特性的使用.csproj", "{062C38B9-CF88-4A99-A622-61459A50A728}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "013-1委托的使用", "013-1委托的使用\013-1委托的使用.csproj", "{5FD831AC-B1D9-417A-93FB-FBB1AC525801}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -123,6 +127,14 @@ Global
 		{9A94A9E4-5952-454D-A280-FDABEFEF066A}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{9A94A9E4-5952-454D-A280-FDABEFEF066A}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{9A94A9E4-5952-454D-A280-FDABEFEF066A}.Release|Any CPU.Build.0 = Release|Any CPU
+		{062C38B9-CF88-4A99-A622-61459A50A728}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{062C38B9-CF88-4A99-A622-61459A50A728}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{062C38B9-CF88-4A99-A622-61459A50A728}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{062C38B9-CF88-4A99-A622-61459A50A728}.Release|Any CPU.Build.0 = Release|Any CPU
+		{5FD831AC-B1D9-417A-93FB-FBB1AC525801}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{5FD831AC-B1D9-417A-93FB-FBB1AC525801}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{5FD831AC-B1D9-417A-93FB-FBB1AC525801}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{5FD831AC-B1D9-417A-93FB-FBB1AC525801}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

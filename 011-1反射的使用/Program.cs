@@ -15,8 +15,7 @@ using Test.Model;
 
 
 
-
-//反射可以避开所以访问修饰符
+//反射可以避开所有访问修饰符
 /// <summary>
 /// 1 dll-IL-matadata-反射
 /// 2 反射加载dll，读取moule、类、方法、特性
@@ -163,10 +162,11 @@ namespace _011_1反射的使用
             //泛型类中的泛型方法使用
             {
                 Assembly assembly = Assembly.Load("Test.DB.SqlServer");
-
                 Type type = assembly.GetType("Test.DB.SqlServer.GenericDouble`1");//获取泛型类
                 Type newType = type.MakeGenericType(new Type[] { typeof(int) });//绑定泛型类型
                 object o = Activator.CreateInstance(newType);//创建泛型类对象
+                
+
                 MethodInfo method = newType.GetMethod("Show");//获取泛型方法
                 MethodInfo newMethod = method.MakeGenericMethod(new Type[] { typeof(int), typeof(string) });//绑定泛型方法类型
                 newMethod.Invoke(o, new object[] { 123, 123, "333" });//使用泛型方法
@@ -176,12 +176,8 @@ namespace _011_1反射的使用
             {
                 try
                 {
-
-
                     //一般笨法实现
                     {
-
-
                         People people = new People();
                         people.Id = 123;
                         people.Name = "ALONG";
@@ -218,7 +214,6 @@ namespace _011_1反射的使用
                             {
                                 field.SetValue(oPeople, "高级队友");//设置Description字段值
                             }
-
                             Console.WriteLine($"{type.Name}.{field.Name}={field.GetValue(oPeople)}");
                         }
                     }
@@ -285,12 +280,6 @@ namespace _011_1反射的使用
 
                     Console.WriteLine(e.Message);
                 }
-
-
-
-
-
-
 
             }
             Console.WriteLine("\n");
