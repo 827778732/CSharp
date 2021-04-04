@@ -6,12 +6,14 @@ using System.Threading.Tasks;
 
 namespace _013_1委托的使用
 {
-    //委托的好处：多个方法可以同时执行：多播委托        同一个方法可以多次执行
 
+    //委托的好处：多个方法可以同时执行：多播委托（委托链 可增可减）        同一个方法可以多次执行
+    //使用匿名方法或者lamda语句    只用一次的方法
+    //优点是将方法作为参数传递
 
     //声明自定义委托
     public delegate void Run(int i);
-    
+
     //其他自定义的委托
     public delegate int AAA(int a, out int b);
     public delegate int BBB(int a, ref int b, out int c);
@@ -43,7 +45,7 @@ namespace _013_1委托的使用
         public static int AAA1(int a, out int b)
         {
             b = 50;
-            return a+b; 
+            return a + b;
         }
 
         public static int BBB1(int a, ref int b, out int c)
@@ -108,17 +110,39 @@ namespace _013_1委托的使用
             {
                 int outb = 0;
                 AAA a = new AAA(AAA1);
-                a.Invoke(50,out outb);
+                a.Invoke(50, out outb);
                 Console.WriteLine($"outb={outb}");
                 Console.WriteLine();
             }
             {//作为ref的变量使用前赋值
-                int refb=50, outc;
+                int refb = 50, outc;
                 BBB b = new BBB(BBB1);
                 b.Invoke(50, ref refb, out outc);
                 Console.WriteLine($"refb={refb},outc={outc}");
                 Console.WriteLine();
             }
+
+            //匿名方法
+            {
+                Run run = delegate (int i){
+                      Console.WriteLine(i);
+                 };
+
+            }
+            //lamda语句
+            {
+                Run run = i=>
+                {
+                    Console.WriteLine(i);
+                };
+
+            }
+
+
+
+
+
+
 
 
 
